@@ -56,8 +56,10 @@ public class Player extends Sprite
 		setTexture(texture);
 		
 		setSize(70, 70);
-		// ISSUE #2 : https://gitlab.com/libgdx/libgdx/issues/2
+		// ISSUE #1 : https://github.com/ScopGames/scopPlatform/issues/1
 		// collision works properly only if getWidth < tileWidth 
+		// change the size of the player and try to jump on some blocks. 
+		
 		//setBounds(0, 0, texture.getWidth(), texture.getHeight());
 	
 		frameTex = new TextureRegion();
