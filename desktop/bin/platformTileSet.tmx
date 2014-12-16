@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="30" tilewidth="70" tileheight="70">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
+  <image source="tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="157" name="tileProp_solid" tilewidth="70" tileheight="70">
+  <image source="tileProp_solid.png" width="140" height="140"/>
+  <tile id="0">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEJACAQBEHL+lbt1lwUNJEDZ+BAPt3A1gAAALhR07sWN97RI0sdjHf0yKJHFj2y6JFFjyx6ZNEjR98MAH6x+wtTBwAANwbprS/T
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1SEOhTAQRdFqHIIFIDFogmOZ7BZwTKGCachjwj3JE9/1zxWkBAAAAAAAAAAAgAhG9QN+bti3nH7Pqof8XL+vKWzNhncdLbp0vXtpEbTqBzg9bUGPe1M2D0+LqD3e7lPbw9siSo/St/Cr83SI1KPm/0VbBOob0cNS34gelvpG9LDUN6KHpb4RPawNIIkAPg==
+  </data>
+ </layer>
+ <layer name="Collision Layer" width="100" height="30" visible="0" opacity="0.48">
+  <data encoding="base64" compression="zlib">
+   eJzt1LENwCAQBEH678ESpTpy5sABmPvXBJNzvxJzjDEBAIDyroA3oEcqPbLokUWPLHpk0SOLHln0yKJHFj3+u/NXp9/aXbcbV95T+e0pm1b9Hx1bvO3avXNFj64tnm3VnL4ZAAB13EywUnE=
+  </data>
+ </layer>
+</map>
