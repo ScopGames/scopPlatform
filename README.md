@@ -3,6 +3,8 @@
 Ho provato a scrivere un giochetto platform per capire come gestire le collisioni usando Tiled.
 Le collisioni non sono ancora perfette, però è una buona base.
 
+![screen](http://imgur.com/jvuHYY3.jpg)
+
 # Debug mode
 
 **Layer**  
